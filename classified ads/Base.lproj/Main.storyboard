@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="uaY-0f-bhU">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rXN-bp-Jcz">
     <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -65,7 +65,7 @@
                                                     <segue destination="wwn-6D-YoS" kind="show" id="nBq-PT-bKJ"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rnY-T6-lbP">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rnY-T6-lbP" customClass="border" customModule="classified_ads" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="130" width="220" height="40"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
@@ -84,7 +84,7 @@
                                                     <segue destination="rXN-bp-Jcz" kind="show" id="3x5-Pg-Kuh"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Szq-nS-YI8">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Szq-nS-YI8" customClass="border" customModule="classified_ads" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="195" width="220" height="40"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
@@ -139,10 +139,10 @@
             </objects>
             <point key="canvasLocation" x="228" y="29.55665024630542"/>
         </scene>
-        <!--View Controller-->
+        <!--Discover Ad Controller-->
         <scene sceneID="zyE-fP-HaB">
             <objects>
-                <viewController id="Ibr-rA-k2D" customClass="ViewController" customModule="classified_ads" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Ibr-rA-k2D" customClass="discoverAdController" customModule="classified_ads" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fr7-du-DG7">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="1100"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -181,7 +181,6 @@
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Item Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SFz-mW-ngD">
                                                                             <rect key="frame" x="0.0" y="0.0" width="154" height="32"/>
-                                                                            <color key="backgroundColor" red="0.45009386540000001" green="0.98132258650000004" blue="0.4743030667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                             <constraints>
                                                                                 <constraint firstAttribute="height" constant="32" id="G3c-An-tDg"/>
                                                                                 <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="154" id="wYC-6s-mph"/>
@@ -191,7 +190,6 @@
                                                                         </label>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Item Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ieb-KC-4vO">
                                                                             <rect key="frame" x="0.0" y="40" width="154" height="32"/>
-                                                                            <color key="backgroundColor" red="0.45009386540000001" green="0.98132258650000004" blue="0.4743030667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                             <constraints>
                                                                                 <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="154" id="GP1-P9-JMC"/>
                                                                                 <constraint firstAttribute="height" constant="32" id="J8u-gp-KYz"/>
@@ -261,6 +259,17 @@
                                             <segue destination="wwn-6D-YoS" kind="show" id="1kb-QN-Ngi"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hvm-02-ufX">
+                                        <rect key="frame" x="35" y="46" width="30" height="34"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="Hvm-02-ufX" secondAttribute="height" multiplier="15:17" id="u3B-K2-WEc"/>
+                                        </constraints>
+                                        <state key="normal" backgroundImage="Dismiss BTN"/>
+                                        <connections>
+                                            <action selector="hide:" destination="Ibr-rA-k2D" eventType="touchUpInside" id="TM4-Fe-792"/>
+                                            <segue destination="uaY-0f-bhU" kind="show" id="JAB-3B-BxA"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="apW-02-WSz" firstAttribute="centerX" secondItem="c1N-tD-u3g" secondAttribute="centerX" id="0ai-fP-HVB"/>
@@ -273,6 +282,8 @@
                                     <constraint firstItem="c1N-tD-u3g" firstAttribute="top" secondItem="cYg-fa-LvL" secondAttribute="top" constant="359" id="SY2-Nh-a3c"/>
                                     <constraint firstAttribute="width" secondItem="wn5-4B-A6c" secondAttribute="width" id="T5q-9A-ddJ"/>
                                     <constraint firstItem="c1N-tD-u3g" firstAttribute="centerX" secondItem="wn5-4B-A6c" secondAttribute="centerX" id="Yf0-Ca-uo3"/>
+                                    <constraint firstItem="Hvm-02-ufX" firstAttribute="top" secondItem="cYg-fa-LvL" secondAttribute="top" constant="46" id="hpv-kA-tIG"/>
+                                    <constraint firstItem="Hvm-02-ufX" firstAttribute="leading" secondItem="cYg-fa-LvL" secondAttribute="leading" constant="35" id="mWG-Wl-BhN"/>
                                     <constraint firstItem="apW-02-WSz" firstAttribute="top" secondItem="c1N-tD-u3g" secondAttribute="bottom" constant="26.333333333333485" id="pmy-Ri-VYc"/>
                                     <constraint firstAttribute="height" secondItem="wn5-4B-A6c" secondAttribute="height" priority="250" id="wmy-uC-Zxd"/>
                                 </constraints>
@@ -947,9 +958,6 @@
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="20"/>
                                                 </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <action selector="logInBTN:" destination="rXN-bp-Jcz" eventType="touchUpInside" id="XyH-dY-8dX"/>
-                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Forget your password?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qjM-gd-m6S">
                                                 <rect key="frame" x="20" y="294" width="260" height="23"/>
@@ -1009,8 +1017,9 @@
                     </view>
                     <size key="freeformSize" width="375" height="827"/>
                     <connections>
-                        <outlet property="logInEmail" destination="bMd-tw-p4k" id="nPj-x4-VE2"/>
-                        <outlet property="logInPassword" destination="Zvl-J4-jDl" id="zTp-bz-BiZ"/>
+                        <outlet property="logInEmail" destination="bMd-tw-p4k" id="Bq7-Zq-fcv"/>
+                        <outlet property="logInPassword" destination="Zvl-J4-jDl" id="ghw-Id-ic0"/>
+                        <segue destination="wwn-6D-YoS" kind="show" identifier="Discover" id="fFO-ZN-pdQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ts8-3O-Vrz" sceneMemberID="firstResponder"/>
@@ -1028,7 +1037,7 @@
         <image name="log in view" width="414" height="826"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="nBq-PT-bKJ"/>
-        <segue reference="nAw-3H-goa"/>
+        <segue reference="1kb-QN-Ngi"/>
+        <segue reference="JAB-3B-BxA"/>
     </inferredMetricsTieBreakers>
 </document>

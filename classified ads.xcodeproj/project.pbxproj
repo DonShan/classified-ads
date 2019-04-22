@@ -12,6 +12,10 @@
 		2922C57E226B828A001DE54E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2922C57C226B828A001DE54E /* Main.storyboard */; };
 		2922C580226B828E001DE54E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2922C57F226B828E001DE54E /* Assets.xcassets */; };
 		2922C583226B828E001DE54E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2922C581226B828E001DE54E /* LaunchScreen.storyboard */; };
+		29601C85226CC0470086C4C3 /* border.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29601C84226CC0470086C4C3 /* border.swift */; };
+		29601C87226D9A750086C4C3 /* AJProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29601C86226D9A750086C4C3 /* AJProgressView.swift */; };
+		29601C8B226DA0DA0086C4C3 /* discoverAdController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29601C8A226DA0DA0086C4C3 /* discoverAdController.swift */; };
+		29601C8D226DA1280086C4C3 /* tableViewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29601C8C226DA1280086C4C3 /* tableViewTableViewController.swift */; };
 		29FFC65E226C35200028E8E6 /* homeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FFC65D226C35200028E8E6 /* homeView.swift */; };
 		29FFC660226C41670028E8E6 /* logInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FFC65F226C41670028E8E6 /* logInVC.swift */; };
 		29FFC662226C41880028E8E6 /* registerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FFC661226C41880028E8E6 /* registerVC.swift */; };
@@ -25,6 +29,10 @@
 		2922C57F226B828E001DE54E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2922C582226B828E001DE54E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2922C584226B828E001DE54E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29601C84226CC0470086C4C3 /* border.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = border.swift; sourceTree = "<group>"; };
+		29601C86226D9A750086C4C3 /* AJProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AJProgressView.swift; path = "../../../Downloads/AJProgressView-master/AJProgressView/AJProgressView/AJProgressView.swift"; sourceTree = "<group>"; };
+		29601C8A226DA0DA0086C4C3 /* discoverAdController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = discoverAdController.swift; sourceTree = "<group>"; };
+		29601C8C226DA1280086C4C3 /* tableViewTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewTableViewController.swift; sourceTree = "<group>"; };
 		29FFC65D226C35200028E8E6 /* homeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeView.swift; sourceTree = "<group>"; };
 		29FFC65F226C41670028E8E6 /* logInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logInVC.swift; sourceTree = "<group>"; };
 		29FFC661226C41880028E8E6 /* registerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerVC.swift; sourceTree = "<group>"; };
@@ -70,9 +78,13 @@
 		2922C577226B828A001DE54E /* classified ads */ = {
 			isa = PBXGroup;
 			children = (
+				29601C86226D9A750086C4C3 /* AJProgressView.swift */,
 				29FFC66A226C60480028E8E6 /* dropDown */,
 				2922C578226B828A001DE54E /* AppDelegate.swift */,
 				2922C57C226B828A001DE54E /* Main.storyboard */,
+				29601C8C226DA1280086C4C3 /* tableViewTableViewController.swift */,
+				29601C84226CC0470086C4C3 /* border.swift */,
+				29601C8A226DA0DA0086C4C3 /* discoverAdController.swift */,
 				29FFC663226C4F7D0028E8E6 /* createAds.swift */,
 				29FFC65F226C41670028E8E6 /* logInVC.swift */,
 				29FFC661226C41880028E8E6 /* registerVC.swift */,
@@ -192,6 +204,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-classified ads/Pods-classified ads-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/BCryptSwift/BCryptSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/IQDropDownTextField/IQDropDownTextField.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
 				"${BUILT_PRODUCTS_DIR}/iOSDropDown/iOSDropDown.framework",
@@ -202,6 +215,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BCryptSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQDropDownTextField.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iOSDropDown.framework",
@@ -243,6 +257,10 @@
 				29FFC660226C41670028E8E6 /* logInVC.swift in Sources */,
 				29FFC662226C41880028E8E6 /* registerVC.swift in Sources */,
 				29FFC664226C4F7D0028E8E6 /* createAds.swift in Sources */,
+				29601C8D226DA1280086C4C3 /* tableViewTableViewController.swift in Sources */,
+				29601C85226CC0470086C4C3 /* border.swift in Sources */,
+				29601C87226D9A750086C4C3 /* AJProgressView.swift in Sources */,
+				29601C8B226DA0DA0086C4C3 /* discoverAdController.swift in Sources */,
 				2922C579226B828A001DE54E /* AppDelegate.swift in Sources */,
 				29FFC65E226C35200028E8E6 /* homeView.swift in Sources */,
 			);
