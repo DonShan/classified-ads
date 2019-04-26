@@ -15,7 +15,6 @@
 		29601C85226CC0470086C4C3 /* border.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29601C84226CC0470086C4C3 /* border.swift */; };
 		29601C87226D9A750086C4C3 /* AJProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29601C86226D9A750086C4C3 /* AJProgressView.swift */; };
 		29601C8B226DA0DA0086C4C3 /* discoverAdController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29601C8A226DA0DA0086C4C3 /* discoverAdController.swift */; };
-		29601C8D226DA1280086C4C3 /* tableViewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29601C8C226DA1280086C4C3 /* tableViewTableViewController.swift */; };
 		29FFC65E226C35200028E8E6 /* homeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FFC65D226C35200028E8E6 /* homeView.swift */; };
 		29FFC660226C41670028E8E6 /* logInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FFC65F226C41670028E8E6 /* logInVC.swift */; };
 		29FFC662226C41880028E8E6 /* registerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FFC661226C41880028E8E6 /* registerVC.swift */; };
@@ -32,7 +31,6 @@
 		29601C84226CC0470086C4C3 /* border.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = border.swift; sourceTree = "<group>"; };
 		29601C86226D9A750086C4C3 /* AJProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AJProgressView.swift; path = "../../../Downloads/AJProgressView-master/AJProgressView/AJProgressView/AJProgressView.swift"; sourceTree = "<group>"; };
 		29601C8A226DA0DA0086C4C3 /* discoverAdController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = discoverAdController.swift; sourceTree = "<group>"; };
-		29601C8C226DA1280086C4C3 /* tableViewTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewTableViewController.swift; sourceTree = "<group>"; };
 		29FFC65D226C35200028E8E6 /* homeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeView.swift; sourceTree = "<group>"; };
 		29FFC65F226C41670028E8E6 /* logInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logInVC.swift; sourceTree = "<group>"; };
 		29FFC661226C41880028E8E6 /* registerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerVC.swift; sourceTree = "<group>"; };
@@ -82,7 +80,6 @@
 				29FFC66A226C60480028E8E6 /* dropDown */,
 				2922C578226B828A001DE54E /* AppDelegate.swift */,
 				2922C57C226B828A001DE54E /* Main.storyboard */,
-				29601C8C226DA1280086C4C3 /* tableViewTableViewController.swift */,
 				29601C84226CC0470086C4C3 /* border.swift */,
 				29601C8A226DA0DA0086C4C3 /* discoverAdController.swift */,
 				29FFC663226C4F7D0028E8E6 /* createAds.swift */,
@@ -257,7 +254,6 @@
 				29FFC660226C41670028E8E6 /* logInVC.swift in Sources */,
 				29FFC662226C41880028E8E6 /* registerVC.swift in Sources */,
 				29FFC664226C4F7D0028E8E6 /* createAds.swift in Sources */,
-				29601C8D226DA1280086C4C3 /* tableViewTableViewController.swift in Sources */,
 				29601C85226CC0470086C4C3 /* border.swift in Sources */,
 				29601C87226D9A750086C4C3 /* AJProgressView.swift in Sources */,
 				29601C8B226DA0DA0086C4C3 /* discoverAdController.swift in Sources */,

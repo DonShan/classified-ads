@@ -8,8 +8,24 @@
 
 import UIKit
 
-class discoverAdController: UIViewController {
-
+class discoverAdController: UIViewController, UITableViewDelegate,UITableViewDataSource {
+    
+    let addViewLink = "http://localhost:20000/api/ad/viewAdverts/"
+    
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 0
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
+        return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

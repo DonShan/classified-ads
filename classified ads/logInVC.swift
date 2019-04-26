@@ -43,16 +43,6 @@ class logInVC: UIViewController {
                 
                 self.objAJProgressView.hide()
                 
-//                if error == nil {
-//                    
-//                self.performSegue(withIdentifier: "Discover", sender: self)
-//                print("Log in success ==========================> ")
-//                
-//                }
-                
-                
-                
-                
                 print("Request: \(String(describing: response.request))")   // original url request
                 print("Response: \(String(describing: response.response))") // http url response
                 print("Result: \(response.result)")
